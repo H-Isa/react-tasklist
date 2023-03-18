@@ -11,3 +11,152 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  height: auto;
+  width: 100vw;
+}
+
+.header{
+  background-color: rgba(0, 0, 255, 0.743);
+  height: 3rem;
+  width: 100%;
+}
+.header-title{
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.searchContainer{
+  width: 80vw;
+  height: auto;
+  margin: 2rem auto;
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.search-card h1{
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.search-card p {
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+  color: grey;
+  font-weight: 300;
+}
+
+.search-card{
+  width: 97%;
+  padding: 1.5rem;
+}
+
+.search-input{
+  width: 96.5%;
+  height: 3rem;
+  border-radius: 7px;
+  outline: none;
+  padding: 0 0 0 1rem;
+  font-size: 1.2rem;
+  border-color: lightgray;
+}
+
+.footer{
+  background-color: #E6E6E3;
+  text-align: center;
+  padding: 0.5rem 0;
+  height: 1.5rem;
+  width: 100%;
+}
+
+/* Search */
+
+.profile-container{
+  width: 76.3vw;
+  height: auto;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.profile-image{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.profile-img{
+  height: 15rem;
+  width: 15rem;
+}
+
+.profile-btn{
+  height: 2.5rem;
+  width: 15rem;
+  background-color: rgba(0, 0, 255, 0.743);
+  color: white;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.profile-info{
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+
+}
+
+.btn{
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  width: 7rem;
+  height: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#blue{
+  background-color: rgba(0, 0, 255, 0.741);
+}
+
+#grey{
+  background-color: lightgrey;
+}
+
+#green{
+  background-color: rgba(0, 128, 0, 0.564);
+}
+
+#aqua{
+  background-color: lightblue;
+}
+
+.btn-list{
+  margin-bottom: 2rem;
+}
+
+.profile-details{
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+
+.profile-details p{
+  border: 1px solid lightgrey;
+  margin: 0;
+  height: 1.7rem;
+  padding: 0.5rem 1rem;
+}
